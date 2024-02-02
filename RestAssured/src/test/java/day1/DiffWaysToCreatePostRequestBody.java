@@ -85,7 +85,7 @@ public class DiffWaysToCreatePostRequestBody {
 				.post("http://localhost:3000/students")
 			
 			.then()
-				.statusCode(200)
+				.statusCode(199)
 				.body("name",equalTo("Scott"))
 				.body("location", equalTo("France"))
 				.body("phone", equalTo("123456"))
