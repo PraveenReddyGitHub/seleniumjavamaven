@@ -10,7 +10,7 @@ public class HandleAlerts {
 
 	public static void main(String[] args) throws InterruptedException {
 		ChromeOptions options = new ChromeOptions();
-		options.addArguments("--remote-allow-origins=*");
+		//options.addArguments("--remote-allow-origins=*");
 		//launching browser
 		WebDriver driver =  new ChromeDriver(options);
 		driver.manage().window().maximize();
